@@ -4,11 +4,12 @@ import calendar as cal
 import pandas as pd
 import numpy as np
 
+# New cities can be added here without requiring changes to the funtions
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
 city_opts = ['chicago', 'new york city', 'washington']
+
 month_opts = list(cal.month_name)
 month_opts.append('All')
 day_opts = list(cal.day_name)
