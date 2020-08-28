@@ -161,11 +161,13 @@ def trip_duration_stats(df):
     start_time = time.time()
 
     # display total travel time
-    total_travel_time = str(dt.timedelta(seconds=int(round(df['Trip Duration'].sum()))))
+    sec_sum = int(round(df['Trip Duration'].sum()))
+    total_travel_time = str(dt.timedelta(seconds=sec_sum))
     print('The total travel time is {} (to the nearest second).'.format(total_travel_time))
 
     # display mean travel time
-    mean_travel_time = str(dt.timedelta(seconds=int(round(df['Trip Duration'].mean()))))
+    sec_mean = int(round(df['Trip Duration'].mean()))
+    mean_travel_time = str(dt.timedelta(seconds=sec_mean))
     print('The mean travel time is {} (to the nearest second).'.format(mean_travel_time))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
