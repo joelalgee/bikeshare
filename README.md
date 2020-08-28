@@ -14,5 +14,5 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-The project, parts of the code, and the data, were supplied by Udacity.
+The project, parts of the code, and the data, were supplied by Udacity (udacity.com) .
 
