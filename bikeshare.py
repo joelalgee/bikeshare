@@ -28,7 +28,8 @@ def get_filters():
     # get user input for city (chicago, new york city, washington)
     while True:
         city_lines = '\n'.join(['{} {}'.format(str(i+1), m) for i, m in enumerate(city_opts)]).title()
-        city_lines = '\nFirst, choose a city to analyze:\n\n{}\n\nPlease enter 1-{}:\n\n'.format(city_lines, len(city_opts))
+        city_lines = '\nFirst, choose a city to analyze:\n\n' + \
+                     '{}\n\nPlease enter 1-{}:\n\n'.format(city_lines, len(city_opts))
         city = input(city_lines).strip()
         
         # validate and format input
@@ -44,7 +45,8 @@ def get_filters():
     # get user input for month (all, january, february, ... , june)
     while True:
         month_lines = '\n'.join(['{} {}'.format(str(i+1), m) for i, m in enumerate(month_opts[1:])])
-        month_lines = '\nNext, choose a month to analyze:\n\n{}\n\nPlease enter 1-13:\n\n'.format(month_lines)
+        month_lines = '\nNext, choose a month to analyze:\n\n' + \
+                      '{}\n\nPlease enter 1-13:\n\n'.format(month_lines)
         month = input(month_lines).lower().strip()
         
         # validate and format input
@@ -57,7 +59,8 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         day_lines = '\n'.join(['{} {}'.format(str(i+1), m) for i, m in enumerate(day_opts)])
-        day_lines = '\nFinally, choose a day of the week to analyze:\n\n{}\n\nPlease enter 1-8:\n\n'.format(day_lines)
+        day_lines = '\nFinally, choose a day of the week to analyze:\n\n' + \
+                    '{}\n\nPlease enter 1-8:\n\n'.format(day_lines)
         day = input(day_lines).lower().strip()
         
         # validate and format input
