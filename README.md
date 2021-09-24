@@ -35,6 +35,9 @@ earliest, most recent, most common year of birth (only available for NYC and Chi
 * numpy 1.20.1
 * pandas 1.2.4
 
+## Instructions
+Download all files to the same folder, navigate to the folder in a terminal such as Anaconda Prompt, and run the script using `python bikeshare.py`.
+
 ## Files
 
 ### bikeshare.py
@@ -56,9 +59,6 @@ The Chicago and New York City files also have the following two columns:
 * Birth Year
 
 The original files are much larger and messier, but they can be accessed here if you'd like to see them ([Chicago](https://www.divvybikes.com/system-data), [New York City](https://www.citibikenyc.com/system-data), [Washington](https://www.capitalbikeshare.com/system-data)). These files had more columns and they differed in format in many cases.
-
-## Instructions
-Download all files to the same folder, navigate to the folder in a terminal such as Anaconda Prompt, and run the script using `python bikeshare.py`.
 
 ## Credits
 The project, and parts of the code, were provided by [Udacity](https://www.udacity.com), as part of their Programming for Data Science nanodegree. The data were provided by [Motivate](https://www.motivateco.com/), a bike share system provider for many major cities in the United States.
