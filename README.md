@@ -7,7 +7,7 @@ Over the past decade, bicycle-sharing systems have been growing in number and po
 
 Thanks to the rise in information technologies, it's easy for a user to access a dock to unlock or return bicycles. These technologies also provide a wealth of data that can be used to explore how these bike-sharing systems are used.
 
-In this project, I made use of Python to explore data from bike share systems for three major cities in the United States — Chicago, New York City, and Washington. I wrote a script that takes in raw input to create an interactive experience in the terminal, importing data and computing descriptive statistics to answer the following questions:
+In this project, I used Python to explore data from bike share systems for three major cities in the United States — Chicago, New York City, and Washington. I wrote a script that takes in raw input to create an interactive experience in the terminal, importing data and computing descriptive statistics to answer the following questions:
 
 ### 1 What are the popular times of travel?
 
