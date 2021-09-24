@@ -11,26 +11,26 @@ In this project, I made use of Python to explore data from bike share systems fo
 
 ### 1 What are the popular times of travel?
 
-most common month
-most common day of week
-most common hour of day
+* most common month
+* most common day of week
+* most common hour of day
 
 ### 2 What are the popular stations and trips?
 
-most common start station
-most common end station
-most common trip from start to end (i.e., most frequent combination of start station and end station)
+* most common start station
+* most common end station
+* most common trip from start to end (i.e., most frequent combination of start station and end station)
 
 ### 3 What are the trip durations?
 
-total travel time
-average travel time
+* total travel time
+* average travel time
 
 ### 4 What can we tell about the users?
 
-counts of each user type
-counts of each gender (only available for NYC and Chicago)
-earliest, most recent, most common year of birth (only available for NYC and Chicago)
+* counts of each user type
+* counts of each gender (only available for NYC and Chicago)
+* earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
 ## Package versions
 * python 3.8.5
