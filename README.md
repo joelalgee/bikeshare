@@ -1,4 +1,4 @@
-# US Bikeshare Data Exploration
+# US Bikeshare Data Exploration - August 2020
 
 Exploring US bikeshare data through an interactive command line application, using Python
 
